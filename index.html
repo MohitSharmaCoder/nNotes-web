@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="note.png" type="image/x-icon">
+    <title>nNotes-Web</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <Header class="header">
+        <nav class="nav">
+            <div class="left">
+                <span>nNotes-Web</span>
+                <ul class="links">
+                    <li><a href="/">Home</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <input id="searchTxt" type="text" placeholder="search">
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+    </Header>
+
+
+
+    <div class="container">
+        <h1>Welcome To nNotes-Web</h1>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Add A Note</h3>        
+                <textarea name="" id="addTxt" cols="94" rows="6"></textarea>
+                <button class="btn" id="addBtn">Add Note</button>
+            </div>
+        </div>
+
+        <hr style="margin-top: 20px;">
+        <h1>Your Notes</h1>
+        <hr>
+
+        <div class="row" id="notes"></div>
+
+    </div>
+
+
+    <script src="index.js"></script>  
+</body>
+
+</html>
