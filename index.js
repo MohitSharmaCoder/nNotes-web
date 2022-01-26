@@ -32,7 +32,7 @@ function showNotes() {
         <div class="noteCard ncard">
             <div class="card-body">
                 <h3 class="card-title">Note ${index+1}</h3>
-                <p class="card-text" style="font-size: 20px;">${element}</p>
+                <p class="card-text" style="font-size: 20px; word-wrap: break-word;">${element}</p>
                 <span>
                     <button id=${index} class="btn" onclick="deleteNote(this.id)">Delete Note</button>
                 </span>
